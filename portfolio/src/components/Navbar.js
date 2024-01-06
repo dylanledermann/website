@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className='d-none d-xl-block'>
                         <ul className={`dropdown-menu dropdown-menu-right ${dropdownOpen ? 'show' : ''} bg-dark border-0`} style={{ position: 'absolute', top: '110%', right: -15 }} aria-labelledby="menuDropdown">
                             <li>
-                                <a className="nav-item w-100 btn btn-dark" href='./Maze'>
+                                <a className="nav-item w-100 btn btn-dark" href='../Maze'>
                                     Maze
                                 </a>
                             </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <div className={`d-xl-none collapse navbar-collapse ${dropdownOpen ? 'show' : ''} pt-4`} id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                             <li>
-                                <a className="nav-item w-100 btn btn-dark rounded-pill border-light" href='./Maze'>
+                                <a className="nav-item w-100 btn btn-dark rounded-pill border-light" href='../Maze'>
                                     Maze
                                 </a>
                             </li>

@@ -37,7 +37,7 @@ const Info = () =>{
                         <ul>
                             <h4>This Webpage</h4>
                             <li>Created using React, Bootstrap, npm, and npx</li>
-                            <h4 className='d-flex'><a href='./Maze' style={{textDecoration:'none', color: hovered ? 'lightskyblue' : '#212529'}} onMouseEnter={mouseHover} onMouseLeave={mouseLeave}>Maze Solver/Creator</a></h4>
+                            <h4 className='d-flex'><a href='../Maze' style={{textDecoration:'none', color: hovered ? 'lightskyblue' : '#212529'}} onMouseEnter={mouseHover} onMouseLeave={mouseLeave}>Maze Solver/Creator</a></h4>
                             <li>Allows the user to create a maze manually or with known maze 
                                 creation algorithms, and solves the maze using different maze solving algorithms</li>
                             <li>Created using JavaScript, HTML, and CSS</li>
