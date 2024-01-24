@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import resume from '../assets/documents/Resume.pdf';
+import resume from '../assets/documents/Resume CS.pdf';
 
 const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);

@@ -27,23 +27,25 @@ const Info = () =>{
                         </p>
                     </div>
                 </div>
-                <div className='d-flex justify-content-center'>
-                    <div className='border-top border-dark w-75' ></div>
-                </div>
-                <div>
-                <div className='d-flex justify-content-center'>
-                    <div className='border-top border-dark w-75' >
-                        <h1>Projects</h1>
-                        <ul>
-                            <h4>This Webpage</h4>
-                            <li>Created using React, Bootstrap, npm, and npx</li>
-                            <h4 className='d-flex'><a href='../Maze' style={{textDecoration:'none', color: hovered ? 'lightskyblue' : '#212529'}} onMouseEnter={mouseHover} onMouseLeave={mouseLeave}>Maze Solver/Creator</a></h4>
-                            <li>Allows the user to create a maze manually or with known maze 
-                                creation algorithms, and solves the maze using different maze solving algorithms</li>
-                            <li>Created using JavaScript, HTML, and CSS</li>
-                        </ul>
+                <div className = 'bg-secondary'>
+                    <div className='d-flex justify-content-center'>
+                        <div className='border-top border-dark w-75' >
+                            <h1>Projects</h1>
+                            <ul>
+                                <h4>This Webpage</h4>
+                                <li>Created using React, Bootstrap, npm, and npx</li>
+                                <h4 className='d-flex'><a href='../Maze' style={{color: hovered ? 'lightskyblue' : '#212529'}} onMouseEnter={mouseHover} onMouseLeave={mouseLeave}>Maze Solver/Creator</a></h4>
+                                <li>Allows the user to create a maze manually or with known maze 
+                                    creation algorithms, and solves the maze using different maze solving algorithms</li>
+                                <li>Created using JavaScript, HTML, and CSS</li>
+                                <h4 className = 'd-flex'>ReviewSyd</h4>
+                                <li>Web app created for students to review study locations on campus, comment useful information on course pages, 
+                                    and create student tutor ads to help students and tutors find each other
+                                </li>
+                                <li>Created using Django, Bootstrap, AJAX, Javascript, HTML, and CSS</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </>
