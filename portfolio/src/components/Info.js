@@ -23,7 +23,6 @@ const Info = () =>{
                         <p>
                             <h1 >Dylan Ledermann</h1>
                             <p >Computer Engineering major at University of San Diego</p>
-                            <p>Software Engineer</p>
                         </p>
                     </div>
                 </div>
