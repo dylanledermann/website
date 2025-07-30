@@ -171,6 +171,7 @@ section {
 
 .section__pic-container {
     display: flex;
+    justify-content: center;
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -295,7 +296,6 @@ section {
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
