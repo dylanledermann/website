@@ -377,6 +377,10 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.project-description {
+    padding-top: 5%;
+}
+
 /* Contact */
 
 #contact {
