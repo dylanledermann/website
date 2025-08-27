@@ -358,6 +358,16 @@ article .icon {
     position: relative;
 }
 
+.projects-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 79vh;
+    overflow-y: scroll; 
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
