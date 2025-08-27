@@ -1,4 +1,7 @@
 @media screen and (max-width: 1400px) {
+    html {
+        scroll-behavior: auto;
+    }
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
