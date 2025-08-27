@@ -15,6 +15,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 p {
@@ -31,6 +32,7 @@ a, .btn {
 
 nav, .nav-links {
     display: flex;
+    scroll-snap-align: start;
 }
 
 nav {
@@ -157,6 +159,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    scroll-snap-align: start;
 }
 
 .section-container {
