@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     html {
         scroll-behavior: auto;
-        scroll-snap-align: none;
+        scroll-snap-type: none;
     }
     #profile {
         height: 83vh;
